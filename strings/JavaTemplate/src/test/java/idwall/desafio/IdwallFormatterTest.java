@@ -13,7 +13,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class IdwallFormatterTest {
 
     private static final Integer DEFAULT_LIMIT = 40;
-    private static final Boolean DEFAULT_JUSTIFY = true;
+    private static final Boolean DEFAULT_JUSTIFY = false;
 
     /**
      * Implements test suite that tests the part 1 of the
