@@ -1,5 +1,6 @@
 package idwall.desafio;
 
+import idwall.desafio.exception.InvalidTextException;
 import idwall.desafio.string.IdwallFormatter;
 import idwall.desafio.string.StringFormatter;
 
@@ -14,7 +15,7 @@ public class Main {
     private static final Integer DEFAULT_LIMIT = 40;
     private static final Boolean DEFAULT_JUSTIFY = true;
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InvalidTextException {
         String text = DEFAULT_INPUT_TEXT;
         Integer limit = DEFAULT_LIMIT;
         Boolean justify = DEFAULT_JUSTIFY;
